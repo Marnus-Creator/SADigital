@@ -132,13 +132,6 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -150,9 +143,25 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Home.aspx" />
+    <Content Include="images\1.jpeg" />
+    <Content Include="images\2.jpeg" />
+    <Content Include="images\3.jpeg" />
+    <Content Include="images\cup\1.jpeg" />
+    <Content Include="images\cup\2.jpeg" />
+    <Content Include="images\cup\3.jpeg" />
+    <Content Include="images\cup\4.jpeg" />
+    <Content Include="images\cup\5.jpeg" />
+    <Content Include="images\cup\6.jpeg" />
+    <Content Include="images\cup\7.jpeg" />
+    <Content Include="images\cup\8.jpeg" />
+    <Content Include="images\four.jpeg" />
+    <Content Include="images\letter.jpeg" />
+    <Content Include="images\main.jpg" />
+    <Content Include="images\people\1.jpeg" />
+    <Content Include="images\people\2.jpeg" />
+    <Content Include="images\people\3.jpeg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -164,6 +173,26 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="style.css" />
+    <Content Include="tea-flower\images\1.jpeg" />
+    <Content Include="tea-flower\images\2.jpeg" />
+    <Content Include="tea-flower\images\3.jpeg" />
+    <Content Include="tea-flower\images\cup\1.jpeg" />
+    <Content Include="tea-flower\images\cup\2.jpeg" />
+    <Content Include="tea-flower\images\cup\3.jpeg" />
+    <Content Include="tea-flower\images\cup\4.jpeg" />
+    <Content Include="tea-flower\images\cup\5.jpeg" />
+    <Content Include="tea-flower\images\cup\6.jpeg" />
+    <Content Include="tea-flower\images\cup\7.jpeg" />
+    <Content Include="tea-flower\images\cup\8.jpeg" />
+    <Content Include="tea-flower\images\four.jpeg" />
+    <Content Include="tea-flower\images\letter.jpeg" />
+    <Content Include="tea-flower\images\main.jpg" />
+    <Content Include="tea-flower\images\people\1.jpeg" />
+    <Content Include="tea-flower\images\people\2.jpeg" />
+    <Content Include="tea-flower\images\people\3.jpeg" />
+    <Content Include="tea-flower\index.html" />
+    <Content Include="tea-flower\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
