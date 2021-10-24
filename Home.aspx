@@ -1,103 +1,56 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="SADigital.Home" %>
 
 <!DOCTYPE html>
-
-<html>
-<title>W3.CSS Template</title>
+<html lang="en">
+<title>SADigital</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1 {font-family: "Montserrat", sans-serif}
-img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
-</style>
 <body>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+<!-- Login -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Login / Sign up</h3>
+    <hr>
+    <p>Please enter your datails below to Login.</p>
+    <p>If you do not already have an account, please sign up.</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>User name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Sign up</button>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Login</button>
+    </form><br>
   </div>
-</nav>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
 
 <!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
-  <h1><b>SADigital</b></h1>
-  <p><b>A photo sharing platform.</b></p>
-  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
-</header>
-</div>
-
-<!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
-    <img src="C:\Users\Marnus\Desktop\Akademie\BSc IT\2021 Semester2\CMPG 323\Projects\Project2\SADigital\SADigital\images\cup1.jpeg" style="width:100%">
-    <img src="/w3images/sound.jpg" style="width:100%">
-    <img src="/w3images/woods.jpg" style="width:100%">
-    <img src="/w3images/rock.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="/w3images/photographer.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">SADigital</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">SADigital</h5>
+    <h3 class="w3-hide-medium w3-hide-small">Photo Sharing</h3>
   </div>
+  
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
 
-  <div class="w3-third">
-    <img src="/w3images/coffee.jpg" style="width:100%">
-    <img src="/w3images/bridge.jpg" style="width:100%">
-    <img src="/w3images/notebook.jpg" style="width:100%">
-    <img src="/w3images/london.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/avatar_g.jpg" style="width:100%">
-  </div>
+  <!-- Images (Portfolio) -->
+  <img src="/w3images/ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
+  <img src="/w3images/ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="/w3images/falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="/w3images/mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="/w3images/mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
 
-  <div class="w3-third">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/workbench.jpg" style="width:100%">
-    <img src="/w3images/gondol.jpg" style="width:100%">
-    <img src="/w3images/skies.jpg" style="width:100%">
-    <img src="/w3images/lights.jpg" style="width:100%">
-    <img src="/w3images/workshop.jpg" style="width:100%">
-  </div>
+  
+
+<!-- End page content -->
 </div>
-
-<!-- End Page Content -->
-</div>
-
- 
-<script>
-    // Toggle grid padding
-    function myFunction() {
-        var x = document.getElementById("myGrid");
-        if (x.className === "w3-row") {
-            x.className = "w3-row-padding";
-        } else {
-            x.className = x.className.replace("w3-row-padding", "w3-row");
-        }
-    }
-
-    // Open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.width = "100%";
-        document.getElementById("mySidebar").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-    }
-</script>
 
 </body>
 </html>

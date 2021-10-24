@@ -131,6 +131,13 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -143,23 +150,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Home.aspx" />
-    <Content Include="images\1.jpeg" />
-    <Content Include="images\2.jpeg" />
-    <Content Include="images\3.jpeg" />
-    <Content Include="images\cup1.jpeg" />
-    <Content Include="images\cup2.jpeg" />
-    <Content Include="images\cup3.jpeg" />
-    <Content Include="images\cup4.jpeg" />
-    <Content Include="images\cup5.jpeg" />
-    <Content Include="images\cup6.jpeg" />
-    <Content Include="images\cup7.jpeg" />
-    <Content Include="images\cup8.jpeg" />
-    <Content Include="images\four.jpeg" />
-    <Content Include="images\letter.jpeg" />
-    <Content Include="images\main.jpg" />
-    <Content Include="images\person1.jpeg" />
-    <Content Include="images\person2.jpeg" />
-    <Content Include="images\person3.jpeg" />
+    <Content Include="Profile.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
