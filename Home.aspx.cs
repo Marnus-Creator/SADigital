@@ -11,7 +11,22 @@ namespace SADigital
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Profile.aspx");
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Profile.aspx");
+        }
+
+        protected void btnSignUp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Profile.aspx");
         }
     }
 }

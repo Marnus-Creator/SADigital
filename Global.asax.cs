@@ -10,6 +10,11 @@ namespace SADigital
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+
+        void Session_Start(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Home.aspx");
+        }
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
