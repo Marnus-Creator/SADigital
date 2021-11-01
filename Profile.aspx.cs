@@ -13,5 +13,10 @@ namespace SADigital
         {
 
         }
+
+        protected void btnSignOut_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
     }
 }

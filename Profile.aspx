@@ -9,9 +9,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
+<form id="form1" runat="server">
 
-
-<!-- Header -->
+    <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
   <img class="w3-image" src="Untitled design.jpg" alt="Me" width="1200" height="1000">                     <!-- Need to add profile picture -->
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
@@ -52,10 +52,12 @@
 <!-- Sign out -->
   <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
     <h3 class="w3-center">Sign out</h3>
-    <form action="/action_page.php" target="_blank">      
-      <button type="Sign out" class="w3-button w3-block w3-dark-grey">Sign out</button>
-    </form><br>
+      <!-- <button type="button" class="w3-button w3-block w3-dark-grey">Sign out</button> -->
+      <asp:Button ID="btnSignOut" runat="server" Text="Sign out" class="w3-button w3-block w3-dark-grey" OnClick="btnSignOut_Click"/>
+      <br>
   </div>
+
+</form>
 
 </body>
 </html>
