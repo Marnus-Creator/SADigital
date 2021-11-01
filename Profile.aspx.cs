@@ -18,5 +18,35 @@ namespace SADigital
         {
             Response.Redirect("Home.aspx");
         }
+
+        protected void btnMyPhotos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MyPhotos.aspx");
+        }
+
+        protected void btnMyPhotos0_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MyPhotos.aspx");
+        }
+
+        protected void btnSharedPhotos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SharedPhotos.aspx");
+        }
+
+        protected void btnSharedPhotos0_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SharedPhotos.aspx");
+        }
+
+        protected void btnShare_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Share.aspx");
+        }
+
+        protected void btnShare0_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Share.aspx");
+        }
     }
 }

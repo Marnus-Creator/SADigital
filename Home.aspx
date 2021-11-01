@@ -9,10 +9,7 @@
 <body>
 
 
-
-    <form id="form1" runat="server">
-
-
+<form id="form1" runat="server">
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
@@ -29,24 +26,6 @@
     <hr>
     <p class="w3-center">Please enter your datails below to Login.</p>
     <p class="w3-center">If you do not already have an account, please sign up.</p>
-     <!-- 
-    <form action="/action_page.php" target="_blank">       
-      <div class="w3-section">
-        <label>User name</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-        <div class="w3-section">
-        <label>Password</label>
-        <input class="w3-input w3-border" type="text" required name="Password">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Sign up</button>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Login</button>
-    </form><br>
-    -->
   </div>
 
 <!-- Login controls -->
@@ -63,10 +42,9 @@
     <asp:Button ID="btnSignUp" runat="server" Text="Sign Up" class="w3-button w3-block w3-dark-grey" OnClick="btnSignUp_Click"/>
     <asp:Button ID="btnLogin" runat="server" Text="Login" class="w3-button w3-block w3-dark-grey" OnClick="btnLogin_Click"/>
     
-  </div>
+</div>
   
-
-    </form>
+</form>
   
 
 </body>

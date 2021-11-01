@@ -11,7 +11,7 @@ namespace SADigital
 {
 
 
-    public partial class Profile
+    public partial class MyPhotos
     {
 
         /// <summary>
@@ -24,66 +24,39 @@ namespace SADigital
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnMyPhotos control.
+        /// btnSharedPhotos1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMyPhotos;
+        protected global::System.Web.UI.WebControls.Button btnSharedPhotos1;
 
         /// <summary>
-        /// btnSharedPhotos control.
+        /// btnShare1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSharedPhotos;
+        protected global::System.Web.UI.WebControls.Button btnShare1;
 
         /// <summary>
-        /// btnShare control.
+        /// btnSharedPhotos2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnShare;
+        protected global::System.Web.UI.WebControls.Button btnSharedPhotos2;
 
         /// <summary>
-        /// btnMyPhotos0 control.
+        /// btnShare2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMyPhotos0;
-
-        /// <summary>
-        /// btnSharedPhotos0 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSharedPhotos0;
-
-        /// <summary>
-        /// btnShare0 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnShare0;
-
-        /// <summary>
-        /// btnSignOut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSignOut;
+        protected global::System.Web.UI.WebControls.Button btnShare2;
     }
 }
