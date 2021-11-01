@@ -19,22 +19,46 @@
     <h5 class="w3-hide-large" style="white-space:nowrap">My Profile</h5>
   </div>
   
-  <!-- Navbar (placed at the bottom of the header image) -->
+  <!-- Navbar (placed at the bottom of the header image) -original HTML code 
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-    <a href="#" class="w3-bar-item w3-button">My Photos</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Shared photos</a>
-    <a href="#contact" class="w3-bar-item w3-button">Share</a>
-  </div>
+    <a href="#" class="w3-bar-item w3-button">My Photos</a><br />
+    <a href="#" class="w3-bar-item w3-button">
+      <asp:Button ID="Button1" runat="server" Text="Button" />
+      </a>&nbsp;<a href="#portfolio" class="w3-bar-item w3-button">Shared photos</a><br />
+    <a href="#portfolio" class="w3-bar-item w3-button">
+      <asp:Button ID="Button2" runat="server" Text="Button" />
+      </a>&nbsp;<a href="#contact" class="w3-bar-item w3-button">Share</a><br />
+    <a href="#contact" class="w3-bar-item w3-button">
+      <asp:Button ID="Button3" runat="server" Text="Button" />
+      </a>
+  &nbsp;</div>
+</header> -->
+
+<!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <asp:Button ID="Button4" runat="server" Text="My Photos" class="w3-bar-item w3-button"/>
+    <asp:Button ID="Button5" runat="server" Text="Shared Photos" class="w3-bar-item w3-button"/>
+    <asp:Button ID="Button6" runat="server" Text="Share" class="w3-bar-item w3-button"/>
+ </div>
 </header>
 
-<!-- Navbar on small screens -->
+<!-- Navbar on small screens -original HTML code 
 <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
 <div class="w3-bar w3-light-grey">
   <a href="#" class="w3-bar-item w3-button">My Photos</a>
   <a href="#portfolio" class="w3-bar-item w3-button">Shared photos</a>
   <a href="#contact" class="w3-bar-item w3-button">Share</a>
 </div>
-</div>
+</div> -->
+
+<!-- Navbar (on small screens) -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <asp:Button ID="Button7" runat="server" Text="My Photos" class="w3-bar-item w3-button"/>
+  <asp:Button ID="Button8" runat="server" Text="Shared Photos" class="w3-bar-item w3-button"/>
+  <asp:Button ID="Button9" runat="server" Text="Share" class="w3-bar-item w3-button"/>
+  </div>
+</div> 
 
 <!-- Page content -->
 <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">

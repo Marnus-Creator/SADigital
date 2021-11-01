@@ -55,7 +55,7 @@
     <label>Username:</label>
     <asp:TextBox ID="TbxUserName" runat="server" class="w3-input w3-border"></asp:TextBox>
     <label>Email: </label>
-    <asp:TextBox ID="tbxEmail" runat="server" class="w3-input w3-border"></asp:TextBox>
+    <asp:TextBox ID="tbxEmail" runat="server" class="w3-input w3-border" ValidationGroup="Email"></asp:TextBox>
     <label>Password: </label>
     <asp:TextBox ID="tbxPassword" runat="server" class="w3-input w3-border"></asp:TextBox>
     
