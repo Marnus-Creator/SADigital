@@ -33,5 +33,15 @@ namespace SADigital
         {
             Response.Redirect("SharedPhotos.aspx");
         }
+
+        protected void btnUpload1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Upload.aspx");
+        }
+
+        protected void btnUpload2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Upload.aspx");
+        }
     }
 }

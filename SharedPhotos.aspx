@@ -20,9 +20,10 @@
   </div>
   
 <!-- Navbar (placed at the bottom of the header image) -->
-  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px; height: 76px;">
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
     <asp:Button ID="btnMyPhotos1" runat="server" Text="My Photos" class="w3-bar-item w3-button" OnClick="btnMyPhotos1_Click"/>
     <asp:Button ID="btnShare3" runat="server" Text="Share" class="w3-bar-item w3-button" OnClick="btnShare3_Click"/>
+    <asp:Button ID="btnUpload" runat="server" Text="Upload Photos" class="w3-bar-item w3-button" OnClick="btnUpload_Click"/>
  </div>
 </header>
 
@@ -31,6 +32,7 @@
 <div class="w3-bar w3-light-grey">
   <asp:Button ID="btnMyPhotos2" runat="server" Text="My Photos" class="w3-bar-item w3-button" OnClick="btnMyPhotos2_Click"/>
   <asp:Button ID="btnShare4" runat="server" Text="Share" class="w3-bar-item w3-button" OnClick="btnShare4_Click"/>
+  <asp:Button ID="btnUpload2" runat="server" Text="Upload Photos" class="w3-bar-item w3-button" OnClick="btnUpload2_Click"/>
   </div>
 </div> 
 

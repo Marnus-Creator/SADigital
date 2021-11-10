@@ -23,6 +23,7 @@
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
     <asp:Button ID="btnMyPhotos3" runat="server" Text="My Photos" class="w3-bar-item w3-button" OnClick="btnMyPhotos3_Click"/>
     <asp:Button ID="btnSharedPhotos3" runat="server" Text="Shared Photos" class="w3-bar-item w3-button" OnClick="btnSharedPhotos3_Click"/>
+    <asp:Button ID="btnUpload" runat="server" Text="Upload Photos" class="w3-bar-item w3-button" OnClick="btnUpload1_Click"/>
  </div>
 </header>
 
@@ -31,6 +32,7 @@
 <div class="w3-bar w3-light-grey">
   <asp:Button ID="btnMyPhotos4" runat="server" Text="My Photos" class="w3-bar-item w3-button" OnClick="btnMyPhotos4_Click"/>
   <asp:Button ID="btnSharedPhotos4" runat="server" Text="Shared Photos" class="w3-bar-item w3-button" OnClick="btnSharedPhotos4_Click"/>
+  <asp:Button ID="btnUpload2" runat="server" Text="Upload Photos" class="w3-bar-item w3-button" OnClick="btnUpload2_Click"/>
   </div>
 </div> 
 

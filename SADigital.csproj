@@ -160,8 +160,19 @@
     <Compile Include="SharedPhotos.aspx.designer.cs">
       <DependentUpon>SharedPhotos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\SADdb.mdf" />
+    <Content Include="App_Data\SADdb_log.ldf">
+      <DependentUpon>SADdb.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -191,6 +202,7 @@
     <Content Include="Share.aspx" />
     <Content Include="SharedPhotos.aspx" />
     <Content Include="Untitled design.jpg" />
+    <Content Include="Upload.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -207,7 +219,6 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

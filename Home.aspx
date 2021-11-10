@@ -17,11 +17,12 @@
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">SADigital</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">SADigital</h5>
-    <h3 class="w3-hide-medium w3-hide-small">Photo Sharing</h3>
+    <h3 class="w3-hide-medium w3-hide-small">Photo Sharing</h3>                 <!-- Fix for mobile devices -->
   </div>
+</header>
 
 <!-- Login -->
-  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="UserDetails1">
     <h3 class="w3-center">Login / Sign up</h3>
     <hr>
     <p class="w3-center">Please enter your datails below to Login.</p>
@@ -29,7 +30,7 @@
   </div>
 
 <!-- Login controls -->
-<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="UserDetails2">
     
     <label>Username:</label>
     <asp:TextBox ID="TbxUserName" runat="server" class="w3-input w3-border"></asp:TextBox>

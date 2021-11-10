@@ -33,5 +33,15 @@ namespace SADigital
         {
             Response.Redirect("Share.aspx");
         }
+
+        protected void btnUpload_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Upload.aspx");
+        }
+
+        protected void btnUpload2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Upload.aspx");
+        }
     }
 }

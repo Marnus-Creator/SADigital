@@ -11,7 +11,7 @@ namespace SADigital
 {
 
 
-    public partial class Share
+    public partial class Upload
     {
 
         /// <summary>
@@ -24,49 +24,76 @@ namespace SADigital
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnMyPhotos3 control.
+        /// btnChooseFile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMyPhotos3;
+        protected global::System.Web.UI.WebControls.Button btnChooseFile;
 
         /// <summary>
-        /// btnSharedPhotos3 control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSharedPhotos3;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// btnUpload control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUpload;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// btnMyPhotos4 control.
+        /// tbxLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMyPhotos4;
+        protected global::System.Web.UI.WebControls.TextBox tbxLocation;
 
         /// <summary>
-        /// btnSharedPhotos4 control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSharedPhotos4;
+        protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// tbxTags control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxTags;
+
+        /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+
+        /// <summary>
+        /// tbxCapturedBy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbxCapturedBy;
 
         /// <summary>
         /// btnUpload2 control.
