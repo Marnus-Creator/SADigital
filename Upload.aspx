@@ -59,6 +59,7 @@
                                 <asp:Button ID="btnChooseFile" runat="server" Text="Choose File" class="w3-bar-item w3-button" BorderStyle="Dotted" OnClick="btnChooseFile_Click"/>
                             &nbsp;
                                 <asp:Label ID="Label4" runat="server" Text="...."></asp:Label>
+                            &nbsp;<asp:FileUpload ID="FileUpload1" runat="server" />
                             </td>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>

@@ -29,10 +29,10 @@ namespace SADigital
         protected void btnChooseFile_Click(object sender, EventArgs e)
         {
             
-           /* HttpPostedFile postedFile = FileUpload1.PostedFile;
+           HttpPostedFile postedFile = FileUpload1.PostedFile;
             string filename = Path.GetFileName(postedFile.FileName);
             string fileExtension = Path.GetExtension(filename);
-            int fileSize = postedFile.ContentLength;*/
+            int fileSize = postedFile.ContentLength;
         }
     }
 }

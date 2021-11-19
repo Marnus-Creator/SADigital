@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="SADigital.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="SADigital.SignUp" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +23,9 @@
 
 <!-- Login -->
   <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="UserDetails1">
-    <h3 class="w3-center">Login</h3>
+    <h3 class="w3-center">Sign Up</h3>
     <hr>
-    <p class="w3-center">Please enter your datails below to Login.</p>
-    <p class="w3-center">If you do not already have an account, please sign up.</p>
+    <p class="w3-center">If you already have an account, please Login.</p>
   </div>
 
 <!-- Login controls -->
@@ -40,8 +39,11 @@
     <asp:TextBox ID="tbxPassword" runat="server" class="w3-input w3-border"></asp:TextBox>
     
     <br />
-    <asp:Button ID="btnSignUp" runat="server" Text="Sign Up" class="w3-button w3-block w3-dark-grey" OnClick="btnSignUp_Click"/>
-    <asp:Button ID="btnLogin" runat="server" Text="Login" class="w3-button w3-block w3-dark-grey" OnClick="btnLogin_Click" Font-Size="X-Large"/>
+    <asp:Button ID="btnSignUp" runat="server" Text="Sign Up" class="w3-button w3-block w3-dark-grey" OnClick="btnSignUp_Click" Font-Size="X-Large"/>
+    <asp:Button ID="btnLogin" runat="server" Text="Login" class="w3-button w3-block w3-dark-grey" OnClick="btnLogin_Click"/>
+    
+    <br />
+    <asp:Label ID="lblStatus" runat="server" Text="..." class="w3-button w3-block " Font-Bold="True" Font-Size="X-Large" ForeColor="Lime" Visible="False"></asp:Label>
     
 </div>
   
