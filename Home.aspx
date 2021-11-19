@@ -43,6 +43,10 @@
     <asp:Button ID="btnSignUp" runat="server" Text="Sign Up" class="w3-button w3-block w3-dark-grey" OnClick="btnSignUp_Click"/>
     <asp:Button ID="btnLogin" runat="server" Text="Login" class="w3-button w3-block w3-dark-grey" OnClick="btnLogin_Click" Font-Size="X-Large"/>
     
+    <asp:CheckBox ID="cbxRemberMe" runat="server" class="w3-button w3-block w3-dark-grey" Font-Bold="True" Font-Size="Large" Text="Remember Me"/>
+    
+    <asp:Label ID="lblError" runat="server" Text="..." class="w3-button w3-block " Font-Bold="True" Font-Size="X-Large" ForeColor="Lime" Visible="False"></asp:Label>
+    
 </div>
   
 </form>
