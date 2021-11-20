@@ -72,11 +72,7 @@
                         </tr>
                         <tr>
                             <td class="auto-style7">
-                                &nbsp;&nbsp;
-                                <asp:Button ID="btnChooseFile" runat="server" Text="Choose File" class="w3-bar-item w3-button" BorderStyle="Dotted" OnClick="btnChooseFile_Click"/>
-                            &nbsp;
-                                <asp:Label ID="Label4" runat="server" Text="...."></asp:Label>
-                            &nbsp;<asp:FileUpload ID="FileUpload1" runat="server" />
+                                &nbsp;&nbsp;&nbsp; <asp:FileUpload ID="FileUpload1" runat="server" />
                             </td>
                             <td class="auto-style10">
                   <asp:Label ID="lblErrorMsg" runat="server" Font-Size="X-Large" Text="Label" Visible="False"></asp:Label>
@@ -100,7 +96,7 @@
                   <asp:TextBox ID="tbxLocation" runat="server"></asp:TextBox>
               </td>
               <td class="w3-left-align">
-                  <asp:Label ID="lblError2" runat="server" Font-Size="X-Large" Text="Label"></asp:Label>
+                  <asp:Label ID="lblError2" runat="server" Font-Size="X-Large" Text="Label" Visible="False"></asp:Label>
               </td>
           </tr>
           <tr>

@@ -69,7 +69,7 @@ namespace SADigital
 
                     lblError2.Visible = true;
                     lblError2.ForeColor = System.Drawing.Color.Green;
-                    lblError2.Text = "Metadata Inserted";
+                    lblError2.Text = "Photo Uploaded successfully";
 
                 }
                 catch
