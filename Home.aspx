@@ -25,7 +25,7 @@
   <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="UserDetails1">
     <h3 class="w3-center">Login</h3>
     <hr>
-    <p class="w3-center">Please enter your datails below to Login.</p>
+    <p class="w3-center">Please enter your details below to Login.</p>
     <p class="w3-center">If you do not already have an account, please sign up.</p>
   </div>
 

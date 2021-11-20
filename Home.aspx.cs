@@ -14,7 +14,7 @@ namespace SADigital
         public SqlConnection conn;
         public DataSet ds;
         public SqlDataAdapter adapt;
-        public string connstr = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename =|DataDirectory|\StockDB_Relative.mdf; Integrated Security = True";
+        public string connstr = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename =|DataDirectory|\SADdb.mdf; Integrated Security = True";
 
 
         protected void Page_Load(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace SADigital
 
                 SqlCommand myCommand = default(SqlCommand);
                 conn = new SqlConnection(connstr);
-                myCommand = new SqlCommand("SELECT Name,Email,Password FROM SADdb.mdf WHERE Name = @User_Name AND Email = @User_Email AND Password = @User_Password", conn);
+                myCommand = new SqlCommand("SELECT User_Name,User_Email,User_Password FROM User_Details WHERE User_Name = @User_Name AND User_Email = @User_Email AND User_Password = @User_Password", conn);
 
                 SqlParameter userName = new SqlParameter("@User_Name", SqlDbType.VarChar);
                 SqlParameter userEmail = new SqlParameter("@User_Email", SqlDbType.VarChar);
