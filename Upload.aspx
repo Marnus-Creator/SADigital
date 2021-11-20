@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style type="text/css">
         .auto-style3 {
-            width: 627px;
+            width: 500px;
             text-align: left;
         }
         .auto-style4 {
@@ -19,6 +19,23 @@
         }
         .auto-style5 {
             height: 44px;
+        }
+        .auto-style6 {
+            width: 500px;
+        }
+        .auto-style7 {
+            width: 500px;
+            height: 52px;
+        }
+        .auto-style8 {
+            height: 52px;
+        }
+        .auto-style9 {
+            width: 238px;
+        }
+        .auto-style10 {
+            height: 52px;
+            width: 238px;
         }
     </style>
     </head>
@@ -49,24 +66,26 @@
                     <br />
                     <table style="width:100%;">
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style6">&nbsp;</td>
+                            <td class="auto-style9">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>
+                            <td class="auto-style7">
                                 &nbsp;&nbsp;
                                 <asp:Button ID="btnChooseFile" runat="server" Text="Choose File" class="w3-bar-item w3-button" BorderStyle="Dotted" OnClick="btnChooseFile_Click"/>
                             &nbsp;
                                 <asp:Label ID="Label4" runat="server" Text="...."></asp:Label>
                             &nbsp;<asp:FileUpload ID="FileUpload1" runat="server" />
                             </td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style10">
+                  <asp:Label ID="lblErrorMsg" runat="server" Font-Size="X-Large" Text="Label" Visible="False"></asp:Label>
+                            </td>
+                            <td class="auto-style8">&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td class="auto-style6">&nbsp;</td>
+                            <td class="auto-style9">&nbsp;</td>
                             <td>&nbsp;</td>
                         </tr>
                     </table>
@@ -80,7 +99,9 @@
               <td class="auto-style3">
                   <asp:TextBox ID="tbxLocation" runat="server"></asp:TextBox>
               </td>
-              <td class="w3-left-align">&nbsp;</td>
+              <td class="w3-left-align">
+                  <asp:Label ID="lblError2" runat="server" Font-Size="X-Large" Text="Label"></asp:Label>
+              </td>
           </tr>
           <tr>
               <td class="auto-style4">
@@ -91,8 +112,7 @@
                   <asp:TextBox ID="tbxTags" runat="server"></asp:TextBox>
               </td>
               <td class="w3-left-align">
-                  <asp:Label ID="lblDisplayUserID" runat="server" Font-Size="XX-Large" Text="Label"></asp:Label>
-              </td>
+                  &nbsp;</td>
           </tr>
           <tr>
               <td class="auto-style4">

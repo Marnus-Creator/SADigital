@@ -13,7 +13,7 @@ namespace SADigital
 
         void Session_Start(object sender, EventArgs e)
         {
-            Response.Redirect("~/Home.aspx");
+            /*Response.Redirect("~/Home.aspx");*/
         }
         protected void Application_Start()
         {
