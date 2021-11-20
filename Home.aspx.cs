@@ -14,7 +14,7 @@ namespace SADigital
         public SqlConnection conn;
         public DataSet ds;
         public SqlDataAdapter adapt;
-        public string connstr = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename =|DataDirectory|\SADdb.mdf; Integrated Security = True";
+        public string connstr = "Server=tcp:cmpg323-prod.database.windows.net,1433;Initial Catalog=CMPG323-prod;Persist Security Info=False;User ID=Marnus@product@cmpg323-prod;Password=C0mput3r;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 
         protected void Page_Load(object sender, EventArgs e)
