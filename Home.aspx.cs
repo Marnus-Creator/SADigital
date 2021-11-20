@@ -44,7 +44,7 @@ namespace SADigital
 
                 SqlCommand myCommand = default(SqlCommand);
                 conn = new SqlConnection(connstr);
-                myCommand = new SqlCommand("SELECT User_Name,User_Email,User_Password FROM User_Details WHERE User_Name = @User_Name AND User_Email = @User_Email AND User_Password = @User_Password", conn);
+                myCommand = new SqlCommand("SELECT * FROM User_Details WHERE User_Name = @User_Name AND User_Email = @User_Email AND User_Password = @User_Password", conn);
 
                 SqlParameter userName = new SqlParameter("@User_Name", SqlDbType.VarChar);
                 SqlParameter userEmail = new SqlParameter("@User_Email", SqlDbType.VarChar);
@@ -61,11 +61,12 @@ namespace SADigital
                 myCommand.Connection.Open();
 
                 SqlDataReader myReader = myCommand.ExecuteReader(CommandBehavior.CloseConnection);
-
+                
                 if (myReader.Read() == true)
                 {
                     HttpCookie theCookie = new HttpCookie("LoginCookie");
-                    theCookie["UserName"] = myReader.GetString(0);
+                    theCookie["UserID"] = myReader.GetInt32(0).ToString();
+                    theCookie["UserName"] = myReader.GetString(1);
 
                     if (cbxRemberMe.Checked)
                     {
@@ -92,7 +93,7 @@ namespace SADigital
             }
 
 
-            //Response.Redirect("Profile.aspx");
+            Response.Redirect("Profile.aspx");
         }
 
         protected void btnSignUp_Click(object sender, EventArgs e)

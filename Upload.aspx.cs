@@ -13,7 +13,9 @@ namespace SADigital
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            HttpCookie theCookie = Request.Cookies["LoginCookie"];
 
+            lblDisplayUserID.Text = theCookie["UserID"].ToString();
         }
 
         protected void btnUpload_Click(object sender, EventArgs e)

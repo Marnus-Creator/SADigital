@@ -90,7 +90,9 @@
               <td class="auto-style3">
                   <asp:TextBox ID="tbxTags" runat="server"></asp:TextBox>
               </td>
-              <td class="w3-left-align">&nbsp;</td>
+              <td class="w3-left-align">
+                  <asp:Label ID="lblDisplayUserID" runat="server" Font-Size="XX-Large" Text="Label"></asp:Label>
+              </td>
           </tr>
           <tr>
               <td class="auto-style4">
