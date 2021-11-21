@@ -23,7 +23,6 @@
 <!-- Navbar (placed at the bottom of the header image) -->
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
     <asp:Button ID="btnMyPhotos" runat="server" Text="My Photos" class="w3-bar-item w3-button" OnClick="btnMyPhotos_Click" />
-    <asp:Button ID="btnSharedPhotos" runat="server" Text="Shared Photos" class="w3-bar-item w3-button" OnClick="btnSharedPhotos_Click"/>
     <asp:Button ID="btnShare" runat="server" Text="Share" class="w3-bar-item w3-button" OnClick="btnShare_Click"/>
     <asp:Button ID="btnUpload" runat="server" Text="Upload Photos" class="w3-bar-item w3-button" OnClick="btnUpload_Click"/>
  </div>
@@ -35,7 +34,6 @@
 <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
 <div class="w3-bar w3-light-grey">
   <asp:Button ID="btnMyPhotos0" runat="server" Text="My Photos" class="w3-bar-item w3-button" OnClick="btnMyPhotos0_Click"/>
-  <asp:Button ID="btnSharedPhotos0" runat="server" Text="Shared Photos" class="w3-bar-item w3-button" OnClick="btnSharedPhotos0_Click"/>
   <asp:Button ID="btnShare0" runat="server" Text="Share" class="w3-bar-item w3-button" OnClick="btnShare0_Click"/>
   <asp:Button ID="btnUpload2" runat="server" Text="Upload Photos" class="w3-bar-item w3-button" OnClick="btnUpload2_Click"/>
   </div>

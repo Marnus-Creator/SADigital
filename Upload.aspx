@@ -37,6 +37,9 @@
             height: 52px;
             width: 238px;
         }
+        .auto-style11 {
+            height: 26px;
+        }
     </style>
     </head>
 <body>
@@ -137,9 +140,9 @@
                   <td class="auto-style5"></td>
               </tr>
               <tr>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
-                  <td>&nbsp;</td>
+                  <td class="auto-style11"></td>
+                  <td class="auto-style11"></td>
+                  <td class="auto-style11"></td>
               </tr>
           </table>
           <br />

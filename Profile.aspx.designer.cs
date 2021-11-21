@@ -33,15 +33,6 @@ namespace SADigital
         protected global::System.Web.UI.WebControls.Button btnMyPhotos;
 
         /// <summary>
-        /// btnSharedPhotos control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSharedPhotos;
-
-        /// <summary>
         /// btnShare control.
         /// </summary>
         /// <remarks>
@@ -67,15 +58,6 @@ namespace SADigital
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnMyPhotos0;
-
-        /// <summary>
-        /// btnSharedPhotos0 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSharedPhotos0;
 
         /// <summary>
         /// btnShare0 control.
